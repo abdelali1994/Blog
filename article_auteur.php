@@ -43,7 +43,7 @@ width: 100%;
 <div  class="container  " style="margin-top: 65px;" >
 
 
-<h1 class="text-center text-white"> welcome to my Blog-Native</h1>
+<h1 class="text-center text-white" style="margin-top: 100px;"> welcome to my Blog-Native</h1>
 
 <div class="row justify-content-center">
 

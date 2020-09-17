@@ -40,7 +40,7 @@ if ($name&&$email&&$fileName) {
     $conn->exec($sql);
    // echo "New record created successfully";
    // echo "Connected successfully";
-   // header("refresh:3, url=catégorie.php");
+   header("location: HomePage.php");
 
 
 }

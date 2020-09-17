@@ -94,11 +94,15 @@
 
             $affiche = $conn->prepare("UPDATE article SET `title`='$title',`contenu`='$contenu',`date`='$date',`image`='$fileName',`id_categorie`='$id_categorie',`id_auteur`='$id_auteur' WHERE  id_article=$id");
             $affiche->execute();
-            // header('Location: Article.php?id_article='.$id);
+            // header('location: Article.php?id_article='.$id);
+    header("location: HomePage.php");
+
     }
     $affiche = $conn->prepare("UPDATE article SET `title`='$title',`contenu`='$contenu',`date`='$date',`id_categorie`='$id_categorie',`id_auteur`='$id_auteur' WHERE  id_article=$id");
     $affiche->execute();
-    // header('Location: Article.php?id_article='.$id);
+    
+    // header('location: Article.php?id_article='.$id);
+    // header("location: HomePage.php");
 
 
     }

@@ -63,9 +63,16 @@
         $affiche = $conn->prepare("UPDATE categorie SET `name`='$name',`image`='$fileName' WHERE  id_categorie=$id");
         $affiche->execute();
 
-    // header('Location: HomePage.php');
+    header('location: /HomePage.php');
+    // if (headers_sent()) {
+    //     die("Redirect failed. Please click on this link: <a href=...>");
+    // }
+    // else{
+    //     exit(header("Location: HomePage.php"));
+    // }
+   
 
-    }
+    // }
 
     
        

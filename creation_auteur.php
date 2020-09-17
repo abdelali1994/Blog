@@ -17,7 +17,7 @@
 <body >
 <?php
  include "NAV.php";
- session_start();
+//  session_start();
     ?>
    <main >
 

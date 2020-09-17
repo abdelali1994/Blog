@@ -10,6 +10,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Location" content="http://example.com/">
   <title>Document</title>
   <link rel="stylesheet" href="https://landkit.goodthemes.co/assets/fonts/Feather/feather.css">
 
@@ -172,12 +173,13 @@
     /* ****************animation */
   </style>
  
-  <header class="bag text-white ">
+  <header class="bag text-white " style="margin-bottom: 100px;">
 
     <nav class="navbar navbar-expand-md text-white navbar-light fixed-top bg-white colornav textcolor fill ">
 
       <a class="nav-link active  " id="active1" href="HomePage.php">
-        <h4>GHAFFARI.</h4>
+        <!-- <h4>GHAFFARI.</h4> -->
+        <img src="photos/blogging-amazing-image-download-0.png" alt="" style="width:100px; height:auto">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -251,9 +253,9 @@
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a class="dropdown-item" href="creation_articl.php">Création Article</a>
-                <a class="dropdown-item" href="Admin.php">Modifier  Article</a>
+                <a class="dropdown-item" href="Admin.php">Modifier et Supprimer Article</a>
                 <a class="dropdown-item" href="creation_auteur.php">Création d'auteur</a>
-                <a class="dropdown-item" href="categorie.php">AdMCatégorie</a>
+                <a class="dropdown-item" href="categorie.php">SDUCatégorie</a>
               </div>
             </li>
           <?php endif; ?>

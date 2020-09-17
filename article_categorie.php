@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -13,7 +13,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
+ -->
 
     <style>
         /* main{
@@ -63,7 +63,7 @@ width: 100%;
                     <div class="card col-lg-3 p-0 shadow  mx-3 my-4">
 
                         <div>
-                            <img src="Article/<?php echo  $article['image'] ?>" class="card-img-top " alt="" style="width: 100%;">
+                            <img src="Article/<?php echo  $article['image'] ?>" class="card-img-top " alt="" style="width: 100%;height:200px">
                         </div>
                         <h3 class="p-3"> <?php echo  $article['title'] ?></h3>
                         <p class="p-3"><?php echo  substr($article['contenu'], 0, 200) . '................' ?></p>

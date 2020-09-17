@@ -38,7 +38,8 @@ if ($name&&$contenu&&$fileName&&$date&&$id_categorie&&$id_auteur) {
     $conn->exec($sql);
    // echo "New record created successfully";
    // echo "Connected successfully";
-    header("refresh:3, url=HomePage.php");
+    header("location: HomePage.php");
+    // header("refresh:1, url=HomePage.php");
 
 
 
